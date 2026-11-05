@@ -3,9 +3,7 @@ import React from 'react';
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-[#F8F9FA] font-sans text-slate-900 selection:bg-blue-500 selection:text-white">
-      {/* ---------------------------------------------------- */}
-      {/* 1. ШАПКА / НАВИГАЦИЯ                                 */}
-      {/* ---------------------------------------------------- */}
+
       <header className="sticky top-0 z-50 border-b border-slate-100 bg-[#0B1E3D] text-white backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2">
@@ -37,9 +35,7 @@ export default function HomePage() {
         </div>
       </header>
 
-      {/* ---------------------------------------------------- */}
-      {/* 2. ПЕРВЫЙ ЭКРАН (HERO SECTION)                        */}
-      {/* ---------------------------------------------------- */}
+
       <section className="bg-[#0B1E3D] pb-16 pt-12 text-white sm:pb-24 sm:pt-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-12 lg:gap-8">
@@ -102,9 +98,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ---------------------------------------------------- */}
-      {/* 3. БЛОК "КАК НАЧАТЬ РАБОТАТЬ С НАМИ"                 */}
-      {/* ---------------------------------------------------- */}
+
       <section id="how-it-works" className="py-16 sm:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -305,9 +299,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ---------------------------------------------------- */}
-      {/* 5. БЛОК "ПОЧЕМУ ВЫБИРАЮТ BOXPACK"                    */}
-      {/* ---------------------------------------------------- */}
+
       <section className="bg-[#0B1E3D] py-16 text-white sm:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
